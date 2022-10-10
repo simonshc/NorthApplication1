@@ -9,11 +9,11 @@ import android.app.Application;
 
 public class App extends Application {
     public static final String MAX = "10";
-
     private int init = 1;
     private static App app;
 
     private String a = null;
+
     @Override
     public void onCreate() {
         super.onCreate();
@@ -21,11 +21,16 @@ public class App extends Application {
         app = this;
     }
 
-    public static App getApp(){
+    public static App getApp() {
         return app;
     }
 
+
     public void setContent() {
 
+    }
+}
+
+    public void test() {
     }
 }
