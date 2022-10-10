@@ -8,6 +8,7 @@ import android.app.Application;
  */
 
 public class App extends Application {
+    public static final String MAX = "10";
     private static App app;
     @Override
     public void onCreate() {
