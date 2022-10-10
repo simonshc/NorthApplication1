@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/i_dp_20"
+    android:paddingRight="@dimen/i_dp_20"
+    android:paddingTop="@dimen/i_dp_20">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="日期："
+        android:textSize="@dimen/i_dp_18"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/i_dp_6"
+        android:text="2012年12月12日"
+        android:textSize="@dimen/i_dp_16"
+        android:textColor="@color/i_solidgray"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/i_dp_16"
+        android:text="号码："
+        android:textSize="@dimen/i_dp_18"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/i_dp_6"
+        android:text="13000084002"
+        android:textSize="@dimen/i_dp_16"
+        android:textColor="@color/i_solidgray"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/i_dp_16"
+        android:text="内容："
+        android:textSize="@dimen/i_dp_18"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/i_dp_6"
+        android:text="爱的发垃圾卡都快放假啊领导附件案例的减肥啦都放假了卡地方啦对方了解啊大狂风就案例的房间拉大锯 "
+        android:textSize="@dimen/i_dp_16"
+        android:textColor="@color/i_solidgray"/>
+</LinearLayout>

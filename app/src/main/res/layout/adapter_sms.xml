@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="@dimen/i_dp_60"
+    android:paddingLeft="@dimen/i_dp_16"
+    android:paddingRight="@dimen/i_dp_16">
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/i_dp_12"
+        android:textColor="#2c2c2c"
+        android:text="2021年5月4号"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_toLeftOf="@id/tv_date"
+        android:layout_marginRight="@dimen/i_dp_10"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/i_dp_14"
+            android:textColor="@color/black"
+            android:text="1300999311"/>
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginTop="@dimen/i_dp_4"
+            android:textSize="@dimen/i_dp_12"
+            android:textColor="#2c2c2c"
+            android:text="是的佛啊对付几哦金额发爱的发哦I就哦啊的佛阿大"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/lv_sms_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/btn_create"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/i_dp_48"
+        android:layout_marginTop="@dimen/i_dp_10"
+        android:layout_marginBottom="@dimen/i_dp_10"
+        android:background="@drawable/bg_btn"
+        android:layout_marginLeft="@dimen/i_dp_20"
+        android:paddingRight="@dimen/i_dp_20"
+        android:textSize="@dimen/i_dp_16"
+        android:textColor="@color/i_white"
+        android:text="新建"/>
+</LinearLayout>

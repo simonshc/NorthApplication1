@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingLeft="@dimen/i_dp_20"
+    android:paddingRight="@dimen/i_dp_20">
+
+    <EditText
+        android:id="@+id/et_number"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/i_dp_40"
+        android:layout_marginTop="@dimen/i_dp_30"
+        android:padding="@dimen/i_dp_6"
+        android:background="@drawable/bg_et"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:hint="请输入手机号"/>
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/i_dp_150"
+        android:layout_marginTop="@dimen/i_dp_15"
+        android:padding="@dimen/i_dp_6"
+        android:background="@drawable/bg_et"
+        android:gravity="top"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:hint="请输入内容"/>
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/i_dp_48"
+        android:layout_marginTop="@dimen/i_dp_20"
+        android:background="@drawable/bg_btn"
+        android:textSize="@dimen/i_dp_16"
+        android:textColor="@color/i_white"
+        android:text="发送"
+        />
+</LinearLayout>
