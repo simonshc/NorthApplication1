@@ -9,6 +9,8 @@ import android.app.Application;
 
 public class App extends Application {
     public static final String MAX = "10";
+
+    private int init = 1;
     private static App app;
 
     private String a = null;
