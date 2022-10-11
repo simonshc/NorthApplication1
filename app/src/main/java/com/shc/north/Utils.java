@@ -69,6 +69,7 @@ public class Utils {
     }
 
     public static void woAini() {
+        String a = "";
     }
 
     public static int getMAx() {
