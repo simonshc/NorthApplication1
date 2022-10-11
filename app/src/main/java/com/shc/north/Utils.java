@@ -61,7 +61,11 @@ public class Utils {
         String t=format.format(new Date());
         return t;
     }
-    
+
     public static void woAini() {
+    }
+
+    public static int getMAx() {
+        return 0;
     }
 }
