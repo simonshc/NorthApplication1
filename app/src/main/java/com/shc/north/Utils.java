@@ -69,6 +69,12 @@ public class Utils {
     }
 
     public static void woAini() {
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     public static int getMAx() {
