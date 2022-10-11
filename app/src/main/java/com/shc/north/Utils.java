@@ -69,6 +69,7 @@ public class Utils {
     }
 
     public static void woAini() {
+        System.currentTimeMillis();
     }
 
     public static int getMAx() {
