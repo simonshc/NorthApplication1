@@ -14,6 +14,8 @@ import java.util.Locale;
  */
 
 public class Utils {
+    public static final int DURATION = 11;
+    
     public static String msgTime(long when) {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy");
         SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy-MM-dd");
